@@ -20,4 +20,10 @@ end
 
 def return_string_array(array)
   count = 0 
-  
+  output = []
+  while count < array.length do
+    output.push(array[count].to_s)
+    count += 1
+  end
+  output
+end
